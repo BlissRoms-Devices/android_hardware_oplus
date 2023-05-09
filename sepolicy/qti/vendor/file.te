@@ -37,3 +37,6 @@ type vendor_proc_oplus_version, fs_type, proc_type;
 
 # Workqueue
 type sysfs_workqueue, fs_type, sysfs_type;
+
+# Vibrator
+type aac_richtap_dev_device, dev_type;
