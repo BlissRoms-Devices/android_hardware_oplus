@@ -4,6 +4,9 @@
 # Charging
 /sys/devices/virtual/oplus_chg/battery/voocchg_ing     u:object_r:vendor_sysfs_battery_supply:s0
 
+# Audio
+/(odm|vendor/odm)/bin/hw/vendor\.ozoaudio\.media\.c2@1\.0-service    u:object_r:mediacodec_exec:s0
+
 # Camera
 /mnt/vendor/persist/camera(/.*)?                                                  u:object_r:vendor_persist_camera_file:s0
 /mnt/vendor/persist/dual_camera_calibration(/.*)?                                 u:object_r:vendor_persist_camera_file:s0
