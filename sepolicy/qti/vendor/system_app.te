@@ -16,3 +16,6 @@ rw_dir_file(system_app, vendor_sysfs_graphics)
 rw_dir_file(system_app, vendor_sysfs_kgsl)
 rw_dir_file(system_app, vendor_sysfs_msm_perf)
 rw_dir_file(system_app, vendor_sysfs_usb_supply)
+
+hal_client_domain(system_app, hal_telephony)
+binder_call(system_app, rild)
